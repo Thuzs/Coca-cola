@@ -6,7 +6,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(#CF2425,#DA6062 50%, #DA6062 60%, #CF2425 );
+    background: linear-gradient(rgb(30, 28, 28),#d82f32 50%, black 100%, #DA6062 , #CF2425 );
     display: flex;
     flex-direction: column;
 }
@@ -17,7 +17,7 @@ header, footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 100vw;
 }
 
 main {
@@ -32,7 +32,7 @@ header {
     display: flex;
     align-items: center;
     gap: 24px;
-    color: FFFFFF;
+    color: #FFFFFF;
     padding-left: 75px;
 }
 
@@ -56,15 +56,22 @@ main {
     right: 0;
     bottom: 0;
     z-index: -1;
+    
+}
+
+.content-image {
+    height: 85vh;
+    filter: drop-shadow(25px 40px 15px rgba(0, 0, 0, 0.769) );
 }
 
 .content-text {
     position: absolute;
     color: #ffffff;
     font-size: 2.5rem;
-    width: 240px;
+    width: 230px;
     transform: translateX(-100%);
-    text-align: end;
+    text-align: center;
+    padding-right: 1vw;
 }
 
 .content-image {
