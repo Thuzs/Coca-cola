@@ -6,13 +6,13 @@
 body {
     width: 100vw;
     height: 100vh;
+    background: linear-gradient(#CF2425,#DA6062 50%, #DA6062 60%, #CF2425 );
     display: flex;
     flex-direction: column;
 }
 
 header, footer {
     height: 100px;
-    background-color: #CF2425;
     color: #FFFFFF;
     display: flex;
     align-items: center;
@@ -25,7 +25,6 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #DA6062;
 }
 
 header {
