@@ -32,9 +32,22 @@ São nomes ou valores que fornecem informações adicionais a uma tag de abertur
 Ela é uma propriedade que da para escolher a largura e a altura assim garantindo que os elementos fiquem em um modelo de ciaxa consistente
 
 12. Por que é importante utilizar tags semânticas no HTML?
+Ele da significado as palavras assim melhorando a acessibilidade para pessoas com deficiência
+
 13. O que são media queries no CSS e qual a sua função?
+É um recurso que permite mudar o estilo de um site com base nas características do dispositivo, como o tamanho da tela, orientação e resolução
+
 14. Qual a função do GitHub Pages?
+Serve para hospedar sites diretamente de um repositório no github
+
 15. O que é o Flexbox no CSS e para que ele é utilizado?
+É um modelo de layout, fazendo layouts responsivos, tambem serve para alinhar itens, e organização de itens
+
 16. Qual a diferença entre justify-content e align-items em um container Flexbox?
+O justify-content controla os itens e alinha eles ao longo do eixo, ja o align itens define os itens individualmente ao longo do eixo transversal
+
 17. Como o flex-grow funciona e qual o seu propósito no layout Flexbox?
+Ele controla a capacidade que um item pode crescer, o seu propósito é que o elemento seja responsivo assim ajustando o tamanho automaticamente conforme o espaço da tela
+
 18. Explique a diferença entre flex-direction: column; e flex-direction: row;.
+O column os itens ficam dispostos de forma vertical já o row de forma horizontal
